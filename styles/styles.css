@@ -15,6 +15,12 @@
     color: #04d9ff;
     font-family: "Audiowide", sans-serif;
 }
+.hello_txt
+{
+    font-family:Brush Script MT,cursive;
+    font-size:xx-large;
+    color: #f5f108;
+}
 .ide_left
 {
     display:flex;
@@ -53,22 +59,24 @@ a
 a:hover
 {
     text-decoration: underline;
-    color: white;
+    color: #f5f108;
 }
-.hello
+.hello_img
 {
     position: relative;
+    float: left;
 }
 .main_content
 {
-    background-color: black;
-    text-align: center;
+    background-color: #030926;
     color:white;
-    padding-bottom: 70%;
+    padding-bottom: 20%;
     width:100%;
     height:100%;
     font-size:x-large;
-    display:inline-block;
+    display:flex;
+    flex-direction: row;
+    font-family: Arial,sans-serif;
 }
 .footer
 {
@@ -76,4 +84,8 @@ a:hover
     margin-top: -1.3%;
     width:100%;
     height:100%
+}
+.titles
+{
+    text-align: center;
 }
