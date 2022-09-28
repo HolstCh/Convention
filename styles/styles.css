@@ -1,8 +1,8 @@
 .header
 {
     text-align: center;
-    background-color: #7EB2DD;
-    color: #ff0000;
+    background-color: #10879b;
+    color: #f8f8f8;
     font-family: "Audiowide", sans-serif;
     padding: 1.3em;
 }
@@ -21,7 +21,7 @@
     font-size:xx-large;
     color: #f5f108;
 }
-.ide_left
+.header_logo
 {
     display:flex;
     flex-direction:row;
@@ -29,54 +29,81 @@
     gap:1.3em;
     height: 1em;
     margin-top: -1.5em;
-    color: #ff0000;
-    font-size:x-small;
-}
-.ide_right
-{
-    display:flex;
-    flex-direction:row;
-    justify-content: flex-end;
-    gap:1.3em;
-    height: 1em;
-    margin-top: -1.5em;
     color: white;
+    font-size:x-small;
+    padding-bottom: 0.4%;
 }
 .links
 {
     display:flex;
     flex-direction:row;
-    background-color: #7EB2DD;
+    justify-content: center;
+    background-color: #10879b;
     gap: 2em;
     font-size: large;
 }
 a
 {
-    color: #ff0000;
+    color: white;
     font-family: "Audiowide", sans-serif;
     text-decoration: none;
 }
 a:hover
 {
     text-decoration: underline;
-    color: white;
-}
-.hello_img
-{
-    position: relative;
-    float: left;
+    color: #e17a0f;
 }
 .main_content
 {
-    background-color: #033457;
-    color:white;
-    padding-bottom: 20%;
+    background-color: white;
+    padding-bottom: 40%;
     width:100%;
     height:100%;
-    font-size:x-large;
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
+}
+.text
+{
+    font-size:large;
+    color:black;
     font-family: Arial,sans-serif;
+    line-height:2.0;
+    float:right;
+}
+.background
+{
+    background-image: url("../images/mtn_range.jpg");
+    background-size: cover;
+}
+.events_content
+{
+    color: #000000;
+    padding-bottom: 30%;
+    width:100%;
+    height:100%;
+    font-size:large;
+    display:flex;
+    flex-direction: column;
+    font-family: Arial,sans-serif;
+    padding-top: 22%;
+}
+h1
+{
+    text-align: center;
+}
+table, th, td
+{
+    border-collapse: collapse;
+    border: 3px solid #10879b;
+    padding: 10px;
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+}
+th
+{
+    color:white;
+    background-color: #10879b;
 }
 .footer
 {
