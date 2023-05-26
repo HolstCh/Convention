@@ -1,4 +1,4 @@
-# Snowboard/Ski Club
+# Ski Club Website
 
 HTML/CSS static website about a hypothetical snowboarding/skiing club in Calgary. The website informs viewers about events, tutorials, and preparation. It is composed of 5 pages that consist of embedded YouTube videos, images, checklists, tables, and links. Here is a sample of the main page:
 ## Main Page
